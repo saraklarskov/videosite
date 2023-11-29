@@ -1,0 +1,140 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
+  list-style: none;
+  align-items: space-between;
+  font-family: "Vina Sans";
+  font-size: 25px;
+  margin-left: 130px;
+}
+
+.nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(165, 162, 162);
+  width: 210px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(8, 10, 9);
+}
+
+body {
+  padding: 40px;
+  margin: 10px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.prove {
+  width: 600px;
+  height: auto;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 10px;
+  padding-right: 100px;
+}
+
+.grid2 p,
+.grid1 p {
+  margin-top: 80px;
+}
+
+.hej {
+  width: 600px; /* Adjust the width as needed */
+  height: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: rgb(123, 123, 123);
+}
+
+.vid {
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+  width: 640px; /* Set your desired width */
+  height: 360px; /* Set your desired height */
+}
+
+.grid3 {
+  display: flex;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.img_1,
+.img_2 {
+  width: auto; /* Set your desired width */
+  height: 600px; /* Maintain aspect ratio */
+}
+
+.grid4 {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.img_3,
+.img_4 {
+  width: auto; /* Set your desired width */
+  height: 600px; /* Maintain aspect ratio */
+}
+
+.img_4 {
+  padding-left: 5.5px;
+}
+
+.grid5 {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.img_5,
+.img_6 {
+  width: auto; /* Set your desired width */
+  height: 600px; /* Maintain aspect ratio */
+}
+
+h1 {
+  font-family: "Vina Sans", sans-serif;
+  font-size: 80px;
+}
+
+p {
+  font-family: "Trispace", sans-serif;
+  font-size: 20px;
+}
+
+.sa {
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+  margin-top: 70px;
+}
+
+footer p {
+  font-size: 12px;
+}
